@@ -3,15 +3,17 @@ Original palette:
 https://coolors.co/89d2dc-6564db-232ed1-101d42-0d1317
 */
 
-$lavender-web: #DFE0F7;
+$ghost-white: #F5F5FA;
 $middle-blue: #89D2DC;
 $slate-blue: #6564DB;
 $persian-blue: #232ED1;
 $oxford-blue: #101D42;
 $rich-black: #0D1317;
+$charcoal: #2E4352;
 
 $primary: $persian-blue;
 $secondary: $slate-blue;
-$light: $lavender-web;
+$light: $ghost-white;
 $dark: $oxford-blue;
-$text: $rich-black;
+$text: $charcoal;
+$text-alt: $rich-black;

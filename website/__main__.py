@@ -2,7 +2,6 @@ from . import style, folders, templates
 
 
 to_be_rendered = [
-  "base.html",
   "index.html"
 ]
 

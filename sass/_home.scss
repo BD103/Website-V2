@@ -1,3 +1,18 @@
+body.home {
+  background-color: $light;
+}
+
 div.home-banner {
   height: 100vh;
+  
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    text-transform: uppercase;
+
+    &.author {
+      font-size: 35pt;
+      color: $primary;
+    }
+  }
 }
