@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Programming | BD103{% endblock %}
+
+{% block body %}
+<h1><a href="/">BD103</a></h1>
+
+<p>BD103 has been programming for {{ years_coding }} years. His favorite programming language is {{ fav_lang }}. He knows HTML, CSS, Sass and JSON well, but has dabbled in Bash, JS, Java, C#, PHP, and XML.</p>
+{% endblock %}
+
+<h2>Top 5 Recently Worked on Repos</h2>
+
+{% for repo in repo_data %}
+<div class="repo">
+  <h3><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></h3>
+  <p>{{ repo.description }}</p>
+  {% if repo.language %}
+  <p>Language: {{ repo.language }}</p>
+  {% endif %}
+</div>
+{% endfor %}

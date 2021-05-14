@@ -9,6 +9,7 @@ license = "Apache-2.0"
 python = "^3.8"
 libsass = "^0.20.1"
 jinja2 = "^3.0.0"
+requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
 
