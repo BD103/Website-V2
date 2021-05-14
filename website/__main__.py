@@ -9,7 +9,7 @@ to_be_rendered = [
 render_kwargs = {
   "years_coding": 6,
   "fav_lang": "Python",
-  "repo_data": repos.get_data()
+  "repos": repos.data()
 }
 
 

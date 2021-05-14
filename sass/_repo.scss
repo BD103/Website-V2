@@ -1,0 +1,11 @@
+.repo {
+  border: 1px solid $dark;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  box-shadow: 3px 3px 3px $dark;
+
+  &:hover {
+    background-color: $light;
+  }
+}
